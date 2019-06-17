@@ -1,0 +1,50 @@
+@import 'normalize.css';
+
+p, h3, form {
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.1rem;
+	}
+.add-book {
+	     background: rgba(255,255,255,0.6);
+	     margin: 20px auto;
+	     padding: 24px 40px;
+	     border-radius: 20px;
+  }
+a {
+		 text-decoration: none;
+		 color: #000;
+		 transition: 0.5s;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #666;
+		text-shadow: 1px 1px 2px #888;
+		}
+h3 {
+		font-size: 1.3rem;
+	}
+p{
+        margin: 0 auto;
+		padding-left: 4px;
+		font-weight: lighter;
+	}
+.row {
+        background: url(../image/wood-t.jpg) repeat;
+	    box-sizing: border-box;
+	    font-family: 'Lobster', cursive;
+  }
+.title, .footer {
+	    width: 100%;
+	    background: rgba(255,255,255,0.6);
+  }
+.books {
+	   background: rgba(255,255,255,0.6);
+  }
+  .img-size {
+	   max-height: 230px;
+	   overflow: hidden;
+  }
+  .book-img {
+	   max-width: 60%;
+  }
+ 
